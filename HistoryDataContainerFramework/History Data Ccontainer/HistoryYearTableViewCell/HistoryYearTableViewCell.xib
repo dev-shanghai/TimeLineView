@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="history_year_table_view_cell" rowHeight="76" id="KGk-i7-Jjw" customClass="HistoryYearTableViewCell" customModule="HistoryDataContainer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAd-XY-NOA">
+                        <rect key="frame" x="0.0" y="0.0" width="385" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-zZ-DsO">
+                                <rect key="frame" x="0.0" y="0.0" width="385" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="pE9-uu-Qdh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rAV-VR-RVG">
+                                <rect key="frame" x="10" y="30" width="375" height="36"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rAV-VR-RVG" firstAttribute="top" secondItem="4d1-zZ-DsO" secondAttribute="bottom" constant="10" id="Hd9-wo-HuW"/>
+                            <constraint firstAttribute="trailing" secondItem="4d1-zZ-DsO" secondAttribute="trailing" id="QBs-VT-Pm1"/>
+                            <constraint firstItem="4d1-zZ-DsO" firstAttribute="top" secondItem="GAd-XY-NOA" secondAttribute="top" id="Qes-su-xD1"/>
+                            <constraint firstAttribute="bottom" secondItem="rAV-VR-RVG" secondAttribute="bottom" id="SNL-tP-zLi"/>
+                            <constraint firstAttribute="trailing" secondItem="rAV-VR-RVG" secondAttribute="trailing" id="x2r-Lb-6hF"/>
+                            <constraint firstItem="4d1-zZ-DsO" firstAttribute="leading" secondItem="GAd-XY-NOA" secondAttribute="leading" id="xKZ-cj-nyp"/>
+                            <constraint firstItem="rAV-VR-RVG" firstAttribute="leading" secondItem="GAd-XY-NOA" secondAttribute="leading" constant="10" id="ygu-Kw-Zlp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="GAd-XY-NOA" secondAttribute="bottom" constant="10" id="KM1-xh-1GB"/>
+                    <constraint firstItem="GAd-XY-NOA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SCY-yE-njf"/>
+                    <constraint firstAttribute="trailing" secondItem="GAd-XY-NOA" secondAttribute="trailing" id="fUf-wS-5ZM"/>
+                    <constraint firstItem="GAd-XY-NOA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qmL-Ue-eSp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="months_tb" destination="rAV-VR-RVG" id="Hmg-HA-bXS"/>
+                <outlet property="title_lbl" destination="4d1-zZ-DsO" id="6SJ-9i-DeI"/>
+            </connections>
+            <point key="canvasLocation" x="123.91304347826087" y="163.39285714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

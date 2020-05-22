@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="history_collection_table_view_cell" rowHeight="281" id="KGk-i7-Jjw" customClass="HistoryTableViewCollectionCell" customModule="HistoryDataContainer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="281"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsn-6X-MSt">
+                        <rect key="frame" x="12" y="7.5" width="459" height="273.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEf-89-5WO">
+                                <rect key="frame" x="0.0" y="5" width="183.5" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Football" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKe-xh-erA">
+                                        <rect key="frame" x="10" y="9.5" width="163.5" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tKe-xh-erA" firstAttribute="centerY" secondItem="hEf-89-5WO" secondAttribute="centerY" id="FBe-UV-FRq"/>
+                                    <constraint firstItem="tKe-xh-erA" firstAttribute="leading" secondItem="hEf-89-5WO" secondAttribute="leading" constant="10" id="fJx-TZ-aoZ"/>
+                                    <constraint firstAttribute="height" constant="40" id="iJ4-uQ-Gdq"/>
+                                    <constraint firstAttribute="trailing" secondItem="tKe-xh-erA" secondAttribute="trailing" constant="10" id="oQO-f7-wML"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcV-qV-ULd">
+                                <rect key="frame" x="0.0" y="0.0" width="459" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="amx-Hd-nSt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <connections>
+                                    <action selector="didTapGesture_btn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="89v-mh-onk"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rn7-w0-wPg">
+                                <rect key="frame" x="0.0" y="55" width="459" height="218.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="999" constant="150" id="7Yf-7R-xK0"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pR6-wv-cee">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="EcV-qV-ULd" firstAttribute="top" secondItem="nsn-6X-MSt" secondAttribute="top" id="1fY-vR-PVS"/>
+                            <constraint firstItem="rn7-w0-wPg" firstAttribute="leading" secondItem="nsn-6X-MSt" secondAttribute="leading" id="5uP-cN-yod"/>
+                            <constraint firstItem="hEf-89-5WO" firstAttribute="leading" secondItem="nsn-6X-MSt" secondAttribute="leading" id="D6N-v3-9ap"/>
+                            <constraint firstItem="EcV-qV-ULd" firstAttribute="leading" secondItem="nsn-6X-MSt" secondAttribute="leading" id="Dew-lC-GyH"/>
+                            <constraint firstAttribute="bottom" secondItem="rn7-w0-wPg" secondAttribute="bottom" id="Eic-In-dMS"/>
+                            <constraint firstAttribute="trailing" secondItem="EcV-qV-ULd" secondAttribute="trailing" id="hBh-uG-jSg"/>
+                            <constraint firstAttribute="trailing" secondItem="rn7-w0-wPg" secondAttribute="trailing" id="htH-TW-tMg"/>
+                            <constraint firstItem="rn7-w0-wPg" firstAttribute="top" secondItem="hEf-89-5WO" secondAttribute="bottom" constant="10" id="r2C-FL-5QV"/>
+                            <constraint firstItem="hEf-89-5WO" firstAttribute="width" secondItem="nsn-6X-MSt" secondAttribute="width" multiplier="0.4" id="x0Q-nd-HfS"/>
+                            <constraint firstItem="hEf-89-5WO" firstAttribute="top" secondItem="nsn-6X-MSt" secondAttribute="top" constant="5" id="yLp-wz-qte"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nsn-6X-MSt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7.5" id="U73-dJ-3jV"/>
+                    <constraint firstAttribute="bottom" secondItem="nsn-6X-MSt" secondAttribute="bottom" id="Xns-oJ-cwk"/>
+                    <constraint firstAttribute="trailing" secondItem="nsn-6X-MSt" secondAttribute="trailing" constant="5" id="jJQ-4I-Neb"/>
+                    <constraint firstItem="nsn-6X-MSt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="tpz-DF-wjY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionContainer_view" destination="nsn-6X-MSt" id="4kQ-Pq-ruV"/>
+                <outlet property="collectionViewHeight_constraint" destination="7Yf-7R-xK0" id="awe-EW-otN"/>
+                <outlet property="gesture_btn" destination="EcV-qV-ULd" id="MS4-4J-Ssh"/>
+                <outlet property="headerBackground_view" destination="hEf-89-5WO" id="xrF-7X-L3F"/>
+                <outlet property="headerTitle_lbl" destination="tKe-xh-erA" id="rei-Jd-tAT"/>
+                <outlet property="history_collection" destination="rn7-w0-wPg" id="Ybd-49-R2R"/>
+            </connections>
+            <point key="canvasLocation" x="255.07246376811597" y="213.95089285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

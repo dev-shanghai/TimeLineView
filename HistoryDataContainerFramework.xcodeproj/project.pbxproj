@@ -8,12 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		A12FB2932477F9500024FE8F /* HistoryDataContainerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A12FB2912477F9500024FE8F /* HistoryDataContainerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12FB2AE2477FC850024FE8F /* HistoryPostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB29B2477FC850024FE8F /* HistoryPostCollectionViewCell.xib */; };
+		A12FB2AF2477FC850024FE8F /* HistoryPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB29C2477FC850024FE8F /* HistoryPostCollectionViewCell.swift */; };
+		A12FB2B02477FC850024FE8F /* HistoryTableViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB29E2477FC850024FE8F /* HistoryTableViewCollectionCell.swift */; };
+		A12FB2B12477FC850024FE8F /* HistoryTableViewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB29F2477FC850024FE8F /* HistoryTableViewCollectionCell.xib */; };
+		A12FB2B22477FC850024FE8F /* HistoryMonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2A12477FC850024FE8F /* HistoryMonthTableViewCell.swift */; };
+		A12FB2B32477FC850024FE8F /* HistoryMonthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2A22477FC850024FE8F /* HistoryMonthTableViewCell.xib */; };
+		A12FB2B42477FC850024FE8F /* HistroyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2A42477FC850024FE8F /* HistroyModel.swift */; };
+		A12FB2B52477FC850024FE8F /* HistoryTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2A62477FC850024FE8F /* HistoryTableHeaderView.xib */; };
+		A12FB2B62477FC850024FE8F /* HistoryTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2A72477FC850024FE8F /* HistoryTableHeaderView.swift */; };
+		A12FB2B72477FC850024FE8F /* HistoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2A92477FC850024FE8F /* HistoryTableViewController.xib */; };
+		A12FB2B82477FC850024FE8F /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2AA2477FC850024FE8F /* HistoryTableViewController.swift */; };
+		A12FB2B92477FC850024FE8F /* HistoryYearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12FB2AC2477FC850024FE8F /* HistoryYearTableViewCell.swift */; };
+		A12FB2BA2477FC850024FE8F /* HistoryYearTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2AD2477FC850024FE8F /* HistoryYearTableViewCell.xib */; };
+		A12FB2C12477FEA70024FE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2BC2477FEA70024FE8F /* Assets.xcassets */; };
+		A12FB2C22477FEA70024FE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2BD2477FEA70024FE8F /* LaunchScreen.storyboard */; };
+		A12FB2C32477FEA70024FE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12FB2BF2477FEA70024FE8F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A12FB28E2477F9500024FE8F /* HistoryDataContainerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HistoryDataContainerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12FB2912477F9500024FE8F /* HistoryDataContainerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataContainerFramework.h; sourceTree = "<group>"; };
 		A12FB2922477F9500024FE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12FB29B2477FC850024FE8F /* HistoryPostCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryPostCollectionViewCell.xib; sourceTree = "<group>"; };
+		A12FB29C2477FC850024FE8F /* HistoryPostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		A12FB29E2477FC850024FE8F /* HistoryTableViewCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCollectionCell.swift; sourceTree = "<group>"; };
+		A12FB29F2477FC850024FE8F /* HistoryTableViewCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewCollectionCell.xib; sourceTree = "<group>"; };
+		A12FB2A12477FC850024FE8F /* HistoryMonthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMonthTableViewCell.swift; sourceTree = "<group>"; };
+		A12FB2A22477FC850024FE8F /* HistoryMonthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryMonthTableViewCell.xib; sourceTree = "<group>"; };
+		A12FB2A42477FC850024FE8F /* HistroyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistroyModel.swift; sourceTree = "<group>"; };
+		A12FB2A62477FC850024FE8F /* HistoryTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableHeaderView.xib; sourceTree = "<group>"; };
+		A12FB2A72477FC850024FE8F /* HistoryTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableHeaderView.swift; sourceTree = "<group>"; };
+		A12FB2A92477FC850024FE8F /* HistoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewController.xib; sourceTree = "<group>"; };
+		A12FB2AA2477FC850024FE8F /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		A12FB2AC2477FC850024FE8F /* HistoryYearTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryYearTableViewCell.swift; sourceTree = "<group>"; };
+		A12FB2AD2477FC850024FE8F /* HistoryYearTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryYearTableViewCell.xib; sourceTree = "<group>"; };
+		A12FB2BC2477FEA70024FE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12FB2BE2477FEA70024FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12FB2C02477FEA70024FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +78,98 @@
 		A12FB2902477F9500024FE8F /* HistoryDataContainerFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A12FB2992477FC850024FE8F /* History Data Ccontainer */,
 				A12FB2912477F9500024FE8F /* HistoryDataContainerFramework.h */,
 				A12FB2922477F9500024FE8F /* Info.plist */,
 			);
 			path = HistoryDataContainerFramework;
+			sourceTree = "<group>";
+		};
+		A12FB2992477FC850024FE8F /* History Data Ccontainer */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2BB2477FEA70024FE8F /* Resources */,
+				A12FB29A2477FC850024FE8F /* HistoryPostCollectionViewCell */,
+				A12FB29D2477FC850024FE8F /* HistoryTableViewCollectionCell */,
+				A12FB2A02477FC850024FE8F /* HistoryMonthTableViewCell */,
+				A12FB2A32477FC850024FE8F /* Models */,
+				A12FB2A52477FC850024FE8F /* HistoryTableHeaderView */,
+				A12FB2A82477FC850024FE8F /* HistoryTableViewController */,
+				A12FB2AB2477FC850024FE8F /* HistoryYearTableViewCell */,
+			);
+			path = "History Data Ccontainer";
+			sourceTree = "<group>";
+		};
+		A12FB29A2477FC850024FE8F /* HistoryPostCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB29B2477FC850024FE8F /* HistoryPostCollectionViewCell.xib */,
+				A12FB29C2477FC850024FE8F /* HistoryPostCollectionViewCell.swift */,
+			);
+			path = HistoryPostCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A12FB29D2477FC850024FE8F /* HistoryTableViewCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB29E2477FC850024FE8F /* HistoryTableViewCollectionCell.swift */,
+				A12FB29F2477FC850024FE8F /* HistoryTableViewCollectionCell.xib */,
+			);
+			path = HistoryTableViewCollectionCell;
+			sourceTree = "<group>";
+		};
+		A12FB2A02477FC850024FE8F /* HistoryMonthTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2A12477FC850024FE8F /* HistoryMonthTableViewCell.swift */,
+				A12FB2A22477FC850024FE8F /* HistoryMonthTableViewCell.xib */,
+			);
+			path = HistoryMonthTableViewCell;
+			sourceTree = "<group>";
+		};
+		A12FB2A32477FC850024FE8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2A42477FC850024FE8F /* HistroyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A12FB2A52477FC850024FE8F /* HistoryTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2A62477FC850024FE8F /* HistoryTableHeaderView.xib */,
+				A12FB2A72477FC850024FE8F /* HistoryTableHeaderView.swift */,
+			);
+			path = HistoryTableHeaderView;
+			sourceTree = "<group>";
+		};
+		A12FB2A82477FC850024FE8F /* HistoryTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2A92477FC850024FE8F /* HistoryTableViewController.xib */,
+				A12FB2AA2477FC850024FE8F /* HistoryTableViewController.swift */,
+			);
+			path = HistoryTableViewController;
+			sourceTree = "<group>";
+		};
+		A12FB2AB2477FC850024FE8F /* HistoryYearTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2AC2477FC850024FE8F /* HistoryYearTableViewCell.swift */,
+				A12FB2AD2477FC850024FE8F /* HistoryYearTableViewCell.xib */,
+			);
+			path = HistoryYearTableViewCell;
+			sourceTree = "<group>";
+		};
+		A12FB2BB2477FEA70024FE8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A12FB2BC2477FEA70024FE8F /* Assets.xcassets */,
+				A12FB2BD2477FEA70024FE8F /* LaunchScreen.storyboard */,
+				A12FB2BF2477FEA70024FE8F /* Main.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +241,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12FB2B32477FC850024FE8F /* HistoryMonthTableViewCell.xib in Resources */,
+				A12FB2C22477FEA70024FE8F /* LaunchScreen.storyboard in Resources */,
+				A12FB2B52477FC850024FE8F /* HistoryTableHeaderView.xib in Resources */,
+				A12FB2B12477FC850024FE8F /* HistoryTableViewCollectionCell.xib in Resources */,
+				A12FB2B72477FC850024FE8F /* HistoryTableViewController.xib in Resources */,
+				A12FB2C12477FEA70024FE8F /* Assets.xcassets in Resources */,
+				A12FB2C32477FEA70024FE8F /* Main.storyboard in Resources */,
+				A12FB2AE2477FC850024FE8F /* HistoryPostCollectionViewCell.xib in Resources */,
+				A12FB2BA2477FC850024FE8F /* HistoryYearTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +260,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12FB2B42477FC850024FE8F /* HistroyModel.swift in Sources */,
+				A12FB2B22477FC850024FE8F /* HistoryMonthTableViewCell.swift in Sources */,
+				A12FB2B82477FC850024FE8F /* HistoryTableViewController.swift in Sources */,
+				A12FB2B02477FC850024FE8F /* HistoryTableViewCollectionCell.swift in Sources */,
+				A12FB2AF2477FC850024FE8F /* HistoryPostCollectionViewCell.swift in Sources */,
+				A12FB2B92477FC850024FE8F /* HistoryYearTableViewCell.swift in Sources */,
+				A12FB2B62477FC850024FE8F /* HistoryTableHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A12FB2BD2477FEA70024FE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12FB2BE2477FEA70024FE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A12FB2BF2477FEA70024FE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12FB2C02477FEA70024FE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A12FB2942477F9500024FE8F /* Debug */ = {
@@ -268,6 +423,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HistoryDataContainerFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +448,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HistoryDataContainerFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
