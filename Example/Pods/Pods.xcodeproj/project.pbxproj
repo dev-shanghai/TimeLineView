@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244403B683A729DF4C445EC0519D9328 /* TimeLineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D05C8F59791B6672A76FAE2E7ABB27 /* Pods-TimeLineView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 769B39E4B54F26777579F69CEC8CF0FC /* Pods-TimeLineView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1A1E8AAFB89311FEB2CBDC12EE0613 /* Pods-TimeLineView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087019A274EEE8CB195280C153C60C14 /* Pods-TimeLineView_Tests-dummy.m */; };
+		7DFFA06A931581F831044D3BF90BD5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		968A13E1A2E53C2D8DD1D0089D8C42C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1BD83F06ED71577B109F1DD73EE57F3 /* TimeLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */; };
+		D77D5417C073DB5A173FF484C9B907BE /* Pods-TimeLineView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63874F7F6731ACF54E548DD1EDE9541E /* Pods-TimeLineView_Example-dummy.m */; };
+		D877F38124B46DB5007130A7241097DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */; };
+		DCD6ECB54CF7839DE39A555B7E72FF1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EA4B5FEA3419D2D5C11E542767A5CCF7 /* Pods-TimeLineView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3454DAAD7416490F3FFC953B504A50 /* Pods-TimeLineView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B1CC241589DCFF3D43DFE488E6D3AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7E0F2956F8F943980CB2DFE457D6FE;
+			remoteInfo = "Pods-TimeLineView_Example";
+		};
+		83935708BCA0E79CAF2B4F2C30ED87CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA33A63FFD2DF802177864CA153A5A1C;
+			remoteInfo = TimeLineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087019A274EEE8CB195280C153C60C14 /* Pods-TimeLineView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeLineView_Tests-dummy.m"; sourceTree = "<group>"; };
+		111A30888A211CA17356F76D3D6173FE /* Pods-TimeLineView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24890136B2222E32E40E76FFBB39F552 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3976F26498A4495773E8221F0934972C /* Pods_TimeLineView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeLineView_Tests.framework; path = "Pods-TimeLineView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A03B32164CD09E93C0C54849C356481 /* TimeLineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimeLineView.modulemap; sourceTree = "<group>"; };
+		3D3454DAAD7416490F3FFC953B504A50 /* Pods-TimeLineView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeLineView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-umbrella.h"; sourceTree = "<group>"; };
+		57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TimeLineView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5AAD36C7CAE1AE986678294D5C8AAE51 /* Pods-TimeLineView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeLineView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63874F7F6731ACF54E548DD1EDE9541E /* Pods-TimeLineView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeLineView_Example-dummy.m"; sourceTree = "<group>"; };
+		652EC8FCB377F00BD3FB3B26D75F01CB /* TimeLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeLineView.framework; path = TimeLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609CA9AF57E821397EF90BF572DE0BD /* Pods-TimeLineView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6F67C3A02354A70CC70E85B092300DDD /* Pods-TimeLineView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		714F61AD951DE9860E44CCB7F90EB641 /* TimeLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-prefix.pch"; sourceTree = "<group>"; };
+		769B39E4B54F26777579F69CEC8CF0FC /* Pods-TimeLineView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeLineView_Example-umbrella.h"; sourceTree = "<group>"; };
+		7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeLineView-dummy.m"; sourceTree = "<group>"; };
+		78CE46AEC6CAC3BE37B35EFFD72AA031 /* Pods-TimeLineView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeLineView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		801F2A7AFAEF85AAA0E3AF2CBF4B1DEB /* Pods-TimeLineView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Example-Info.plist"; sourceTree = "<group>"; };
+		8143197525890624E408609C28D8376C /* TimeLineView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimeLineView-Info.plist"; sourceTree = "<group>"; };
+		8249BA25FD6AAA9EB37F668B68A96822 /* Pods-TimeLineView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeLineView_Tests.modulemap"; sourceTree = "<group>"; };
+		930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6EB133CF9E28C23AC6E40F26EA31707 /* TimeLineView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TimeLineView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3D3DC39E54F365B2730FDFBA1457362 /* Pods-TimeLineView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Tests-Info.plist"; sourceTree = "<group>"; };
+		B92DE471BE26DAE743D4629253DC92DC /* Pods_TimeLineView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeLineView_Example.framework; path = "Pods-TimeLineView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD48AAD7BF15B5E4AD9DC12630114DAF /* Pods-TimeLineView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C01DEF720CDC48BEA77707D752F55DB2 /* Pods-TimeLineView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeLineView_Example.modulemap"; sourceTree = "<group>"; };
+		C5E7531B232645E897443AD792DFCD13 /* Pods-TimeLineView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeLineView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4FB93647EFD8698721CA90556534263 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD60AF222DC25F9E586064B84EF9DBE2 /* Pods-TimeLineView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE981552E0027723842B6F3CD64297AE /* Pods-TimeLineView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45247C09860B241A74B25531F13C5696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFFA06A931581F831044D3BF90BD5F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4D742077C415FFEE3A4D6279F0D41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968A13E1A2E53C2D8DD1D0089D8C42C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F19FBC58A37814DE4909A6CB2C0A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD6ECB54CF7839DE39A555B7E72FF1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1207E9EF62DFA2C674AEB0FE8041226F /* Pods-TimeLineView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8249BA25FD6AAA9EB37F668B68A96822 /* Pods-TimeLineView_Tests.modulemap */,
+				5AAD36C7CAE1AE986678294D5C8AAE51 /* Pods-TimeLineView_Tests-acknowledgements.markdown */,
+				BD48AAD7BF15B5E4AD9DC12630114DAF /* Pods-TimeLineView_Tests-acknowledgements.plist */,
+				087019A274EEE8CB195280C153C60C14 /* Pods-TimeLineView_Tests-dummy.m */,
+				B3D3DC39E54F365B2730FDFBA1457362 /* Pods-TimeLineView_Tests-Info.plist */,
+				3D3454DAAD7416490F3FFC953B504A50 /* Pods-TimeLineView_Tests-umbrella.h */,
+				111A30888A211CA17356F76D3D6173FE /* Pods-TimeLineView_Tests.debug.xcconfig */,
+				6609CA9AF57E821397EF90BF572DE0BD /* Pods-TimeLineView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TimeLineView_Tests";
+			path = "Target Support Files/Pods-TimeLineView_Tests";
+			sourceTree = "<group>";
+		};
+		17A2E61A4FA1B082F57DF61F5773A660 /* TimeLineView */ = {
+			isa = PBXGroup;
+			children = (
+				57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */,
+				B94BA8E5979F94F24DDA285FA08EE110 /* Pod */,
+				D239C216026E818426A99370BC691C6C /* Support Files */,
+			);
+			name = TimeLineView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1EFDF0B27D29C6697C779C4275512153 /* Pods-TimeLineView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C01DEF720CDC48BEA77707D752F55DB2 /* Pods-TimeLineView_Example.modulemap */,
+				C5E7531B232645E897443AD792DFCD13 /* Pods-TimeLineView_Example-acknowledgements.markdown */,
+				DD60AF222DC25F9E586064B84EF9DBE2 /* Pods-TimeLineView_Example-acknowledgements.plist */,
+				63874F7F6731ACF54E548DD1EDE9541E /* Pods-TimeLineView_Example-dummy.m */,
+				78CE46AEC6CAC3BE37B35EFFD72AA031 /* Pods-TimeLineView_Example-frameworks.sh */,
+				801F2A7AFAEF85AAA0E3AF2CBF4B1DEB /* Pods-TimeLineView_Example-Info.plist */,
+				769B39E4B54F26777579F69CEC8CF0FC /* Pods-TimeLineView_Example-umbrella.h */,
+				6F67C3A02354A70CC70E85B092300DDD /* Pods-TimeLineView_Example.debug.xcconfig */,
+				EE981552E0027723842B6F3CD64297AE /* Pods-TimeLineView_Example.release.xcconfig */,
+			);
+			name = "Pods-TimeLineView_Example";
+			path = "Target Support Files/Pods-TimeLineView_Example";
+			sourceTree = "<group>";
+		};
+		28A37710A98338764DB6BDCDA6866387 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A2E61A4FA1B082F57DF61F5773A660 /* TimeLineView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		900E470DB3A136DF2E3C18ABACD04DAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFDF0B27D29C6697C779C4275512153 /* Pods-TimeLineView_Example */,
+				1207E9EF62DFA2C674AEB0FE8041226F /* Pods-TimeLineView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B94BA8E5979F94F24DDA285FA08EE110 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24890136B2222E32E40E76FFBB39F552 /* LICENSE */,
+				D4FB93647EFD8698721CA90556534263 /* README.md */,
+				A6EB133CF9E28C23AC6E40F26EA31707 /* TimeLineView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1FDBA1D7CA29A4E3F5BC8978F7C46B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92DE471BE26DAE743D4629253DC92DC /* Pods_TimeLineView_Example.framework */,
+				3976F26498A4495773E8221F0934972C /* Pods_TimeLineView_Tests.framework */,
+				652EC8FCB377F00BD3FB3B26D75F01CB /* TimeLineView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				28A37710A98338764DB6BDCDA6866387 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C1FDBA1D7CA29A4E3F5BC8978F7C46B6 /* Products */,
+				900E470DB3A136DF2E3C18ABACD04DAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D239C216026E818426A99370BC691C6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A03B32164CD09E93C0C54849C356481 /* TimeLineView.modulemap */,
+				7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */,
+				8143197525890624E408609C28D8376C /* TimeLineView-Info.plist */,
+				714F61AD951DE9860E44CCB7F90EB641 /* TimeLineView-prefix.pch */,
+				4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */,
+				930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */,
+				F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimeLineView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F13D445B055CEC27CDC6715FDD11A76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4B5FEA3419D2D5C11E542767A5CCF7 /* Pods-TimeLineView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EEBFFFF56BB180D08B281FD8561CB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D05C8F59791B6672A76FAE2E7ABB27 /* Pods-TimeLineView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C916A776E1045E74BB476DF0CACADC4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244403B683A729DF4C445EC0519D9328 /* TimeLineView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A7E0F2956F8F943980CB2DFE457D6FE /* Pods-TimeLineView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74182A862EF646CE1BECC0CCB92C8004 /* Build configuration list for PBXNativeTarget "Pods-TimeLineView_Example" */;
+			buildPhases = (
+				19EEBFFFF56BB180D08B281FD8561CB4 /* Headers */,
+				172F9279EF1B1BED654039087FDC174E /* Sources */,
+				45247C09860B241A74B25531F13C5696 /* Frameworks */,
+				89DA1D66C23DF1C6CBA60EBC106239FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C19BC82F75F933141A9A5A570340BC /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeLineView_Example";
+			productName = "Pods-TimeLineView_Example";
+			productReference = B92DE471BE26DAE743D4629253DC92DC /* Pods_TimeLineView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D09A6F18C475FF5EB65CF1678C2106C4 /* Pods-TimeLineView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC20435575973B9D4FB047FAAC8D3BF3 /* Build configuration list for PBXNativeTarget "Pods-TimeLineView_Tests" */;
+			buildPhases = (
+				0F13D445B055CEC27CDC6715FDD11A76 /* Headers */,
+				F38EC6EE8E585D203CC532EADDC4C1AC /* Sources */,
+				B7F19FBC58A37814DE4909A6CB2C0A49 /* Frameworks */,
+				7B8DC5E52035BBB6906E2FB25E6709B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4850C6636326E76102891799067C8017 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeLineView_Tests";
+			productName = "Pods-TimeLineView_Tests";
+			productReference = 3976F26498A4495773E8221F0934972C /* Pods_TimeLineView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA33A63FFD2DF802177864CA153A5A1C /* TimeLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DD02B030D45C3E9CEA7456B48CE26F /* Build configuration list for PBXNativeTarget "TimeLineView" */;
+			buildPhases = (
+				C916A776E1045E74BB476DF0CACADC4E /* Headers */,
+				9A5D87DB168F1C84403EC6FEC0FEFBDB /* Sources */,
+				9C4D742077C415FFEE3A4D6279F0D41B /* Frameworks */,
+				F186F5C78D35B8309340B0E51330A644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLineView;
+			productName = TimeLineView;
+			productReference = 652EC8FCB377F00BD3FB3B26D75F01CB /* TimeLineView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1FDBA1D7CA29A4E3F5BC8978F7C46B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7E0F2956F8F943980CB2DFE457D6FE /* Pods-TimeLineView_Example */,
+				D09A6F18C475FF5EB65CF1678C2106C4 /* Pods-TimeLineView_Tests */,
+				DA33A63FFD2DF802177864CA153A5A1C /* TimeLineView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8DC5E52035BBB6906E2FB25E6709B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA1D66C23DF1C6CBA60EBC106239FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F186F5C78D35B8309340B0E51330A644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172F9279EF1B1BED654039087FDC174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77D5417C073DB5A173FF484C9B907BE /* Pods-TimeLineView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5D87DB168F1C84403EC6FEC0FEFBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D877F38124B46DB5007130A7241097DD /* ReplaceMe.swift in Sources */,
+				B1BD83F06ED71577B109F1DD73EE57F3 /* TimeLineView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EC6EE8E585D203CC532EADDC4C1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1A1E8AAFB89311FEB2CBDC12EE0613 /* Pods-TimeLineView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4850C6636326E76102891799067C8017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeLineView_Example";
+			target = 9A7E0F2956F8F943980CB2DFE457D6FE /* Pods-TimeLineView_Example */;
+			targetProxy = 3B1CC241589DCFF3D43DFE488E6D3AA3 /* PBXContainerItemProxy */;
+		};
+		D7C19BC82F75F933141A9A5A570340BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimeLineView;
+			target = DA33A63FFD2DF802177864CA153A5A1C /* TimeLineView */;
+			targetProxy = 83935708BCA0E79CAF2B4F2C30ED87CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2562BD3937158156B4984C8C09C17958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeLineView/TimeLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeLineView/TimeLineView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeLineView/TimeLineView.modulemap";
+				PRODUCT_MODULE_NAME = TimeLineView;
+				PRODUCT_NAME = TimeLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33EFBC09A9F86131D1C702E689B88DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeLineView/TimeLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeLineView/TimeLineView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeLineView/TimeLineView.modulemap";
+				PRODUCT_MODULE_NAME = TimeLineView;
+				PRODUCT_NAME = TimeLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CE1E9C4CA1B8DB13292902BC566F406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F67C3A02354A70CC70E85B092300DDD /* Pods-TimeLineView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58D235D0A511C20D36D3534DD95D46D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6609CA9AF57E821397EF90BF572DE0BD /* Pods-TimeLineView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74746F73318EF5E78F48E47096C280D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE981552E0027723842B6F3CD64297AE /* Pods-TimeLineView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B50A496F7D855F9E57F02A4A35242967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111A30888A211CA17356F76D3D6173FE /* Pods-TimeLineView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74182A862EF646CE1BECC0CCB92C8004 /* Build configuration list for PBXNativeTarget "Pods-TimeLineView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE1E9C4CA1B8DB13292902BC566F406 /* Debug */,
+				74746F73318EF5E78F48E47096C280D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC20435575973B9D4FB047FAAC8D3BF3 /* Build configuration list for PBXNativeTarget "Pods-TimeLineView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50A496F7D855F9E57F02A4A35242967 /* Debug */,
+				58D235D0A511C20D36D3534DD95D46D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DD02B030D45C3E9CEA7456B48CE26F /* Build configuration list for PBXNativeTarget "TimeLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2562BD3937158156B4984C8C09C17958 /* Debug */,
+				33EFBC09A9F86131D1C702E689B88DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

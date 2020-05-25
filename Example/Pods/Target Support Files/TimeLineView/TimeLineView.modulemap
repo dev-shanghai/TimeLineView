@@ -1,0 +1,6 @@
+framework module TimeLineView {
+  umbrella header "TimeLineView-umbrella.h"
+
+  export *
+  module * { export * }
+}

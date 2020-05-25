@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TimeLineView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TimeLineView.'
+  s.summary          = 'TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside.
+  If you are will be using it, you just need it pass your titles, sub-titles array, also you need to provide the dictionary values for the items.
 
-  s.homepage         = 'https://github.com/iamasimkhanjadoon@gmail.com/TimeLineView'
+  s.homepage         = 'https://github.com/dev-shanghai/TimeLineView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'iamasimkhanjadoon@gmail.com' => 'asim2125Khan' }
