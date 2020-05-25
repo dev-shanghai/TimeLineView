@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimeLineView_Example' do
+  pod 'TimeLineView', :path => '../'
+
+  target 'TimeLineView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
