@@ -1,4 +1,4 @@
-# TimeLineView
+# AdvanceTimeLineView
 
 [![CI Status](https://img.shields.io/travis/iamasimkhanjadoon@gmail.com/TimeLineView.svg?style=flat)](https://travis-ci.org/iamasimkhanjadoon@gmail.com/TimeLineView)
 [![Version](https://img.shields.io/cocoapods/v/TimeLineView.svg?style=flat)](https://cocoapods.org/pods/TimeLineView)
@@ -17,13 +17,13 @@ TimeLineView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TimeLineView'
+   pod 'AdvanceTimeLineView'
 ```
 
 ## Author
 
-iamasimkhanjadoon@gmail.com, asim2125Khan
+iamasimkhanjadoon@gmail.com
 
 ## License
 
-TimeLineView is available under the MIT license. See the LICENSE file for more info.
+AdvanceTimeLineView is available under the MIT license. See the LICENSE file for more info.
