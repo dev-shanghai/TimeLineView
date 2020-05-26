@@ -1,9 +1,9 @@
 {
   "name": "TimeLineView",
   "version": "0.1.0",
-  "summary": "A short description of TimeLineView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/iamasimkhanjadoon@gmail.com/TimeLineView",
+  "summary": "TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside.",
+  "description": "TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside. If you are will be using it, you just need it pass your titles, sub-titles array, also you need to provide the dictionary values for the items.",
+  "homepage": "https://github.com/dev-shanghai/TimeLineView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TimeLineView/Classes/**/*"
+  "source_files": "TimeLineView/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

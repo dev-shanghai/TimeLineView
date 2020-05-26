@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside.
-  If you are will be using it, you just need it pass your titles, sub-titles array, also you need to provide the dictionary values for the items.
+  s.description      = 'TimeLineView lets user expand and collapse items grid inside table view cells, having one main scroll outside. If you are will be using it, you just need it pass your titles, sub-titles array, also you need to provide the dictionary values for the items.'
 
   s.homepage         = 'https://github.com/dev-shanghai/TimeLineView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,6 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TimeLineView/Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'TimeLineView' => ['TimeLineView/Assets/*.png']

@@ -7,15 +7,44 @@
 //
 
 import UIKit
+import TimeLineView
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var years_array = ["2020","2019", "2018", "2017", "2016", "2014", "2013", "2012", "2011", "2010", "2009", "2008" ]
+    var months_array = ["December", "November", "October", "September", "August", "July", "June", "May", "April", "March", "Febuary", "January"]
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let historyTVC = TimeLineViewController()
+        historyTVC.title = "History View"
+        historyTVC.timelineTitles = self.years_array
+        historyTVC.timelineSubTitles = self.months_array
+        historyTVC.timelineItems = [
+            ["name":"Title","image_url":"https://image.flaticon.com/icons/png/512/2922/2922553.png",],
+            ["name":"Title","image_url":"https://image.flaticon.com/icons/png/512/2922/2922553.png",],
+            ["name":"Title","image_url":"https://image.flaticon.com/icons/png/512/2922/2922553.png",],
+            ["name":"Title","image_url":"https://image.flaticon.com/icons/png/512/2922/2922553.png",],
+            ["name":"Title","image_url":"https://image.flaticon.com/icons/png/512/2922/2922553.png",],
+        ]
+        
+        historyTVC.titleBackground = UIColor.red
+        historyTVC.titleTint = UIColor.white
+        
+        historyTVC.subTitleBackground = UIColor.orange
+        historyTVC.subTitleTint = UIColor.white
+        
+        let navigationController = UINavigationController(rootViewController: historyTVC)
+        
+        
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		244403B683A729DF4C445EC0519D9328 /* TimeLineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0870DDC92B4EE7201296452CD6910609 /* HistoryPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E62D53FDCED970ACB669985D74D386 /* HistoryPostCollectionViewCell.swift */; };
+		199EEA6E3992F303166B94E546208A6D /* TimeLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C12407A389B8AF33517C7A348F99CD /* TimeLineView-dummy.m */; };
 		37D05C8F59791B6672A76FAE2E7ABB27 /* Pods-TimeLineView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 769B39E4B54F26777579F69CEC8CF0FC /* Pods-TimeLineView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D0D89B1E73743B3A956E9B2AB6E97B /* TimeLineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDE89E7B3F85595C82A5C1DBC535120 /* TimeLineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534DA0BA66A2BE4832214387ADA5AD29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6D1A1E8AAFB89311FEB2CBDC12EE0613 /* Pods-TimeLineView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087019A274EEE8CB195280C153C60C14 /* Pods-TimeLineView_Tests-dummy.m */; };
+		6EB1CED40E47FF4F2B259F67D94D3B74 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA01592D5E073E8F15009A6C088337E /* TimeLineViewController.swift */; };
 		7DFFA06A931581F831044D3BF90BD5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		968A13E1A2E53C2D8DD1D0089D8C42C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B1BD83F06ED71577B109F1DD73EE57F3 /* TimeLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */; };
+		8A49BE84950DC9367E9AB2DD1214112D /* HistoryTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3457E7E5FFF0F7C49CDED43F0B23BC5 /* HistoryTableHeaderView.swift */; };
+		8C315A9ABB6B185845C8B27CEBB9D1F5 /* HistroyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7511332EB30BE72C428A271DF7FBE /* HistroyModel.swift */; };
+		A1470844247C669B00B3A9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1470843247C669B00B3A9F6 /* Assets.xcassets */; };
+		B33F3F80966FC95951BF958295AEF95B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FF65672D4B0F0EE0596F5EF291DDE /* Extensions.swift */; };
+		C94C5EDCB91BFCCE4456C7BE65FE40A3 /* HistoryPostCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D40E24CB28630B4AA76455B9DCE99025 /* HistoryPostCollectionViewCell.xib */; };
+		D2727CE0AF0EA49527316FCCBB98FFA8 /* TimeLineCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B2113BDF293C715FBEF4C22BD17CE /* TimeLineCollectionController.swift */; };
+		D765CE1008854E13304D487F96BF0C40 /* HistoryTableView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 34263E1898B5DC641DA4EC450D836C60 /* HistoryTableView.xib */; };
 		D77D5417C073DB5A173FF484C9B907BE /* Pods-TimeLineView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63874F7F6731ACF54E548DD1EDE9541E /* Pods-TimeLineView_Example-dummy.m */; };
-		D877F38124B46DB5007130A7241097DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */; };
 		DCD6ECB54CF7839DE39A555B7E72FF1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EA4B5FEA3419D2D5C11E542767A5CCF7 /* Pods-TimeLineView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3454DAAD7416490F3FFC953B504A50 /* Pods-TimeLineView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBEFFFE569C1FCA7643AB9C41929DAEC /* HistoryTableHeaderView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9616798709D077483FFF0862FF1FEBAB /* HistoryTableHeaderView.xib */; };
+		ECD74CFE883F02FB9BC3931F8D00C4B0 /* TimeLineItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231E221E9B4CCB00EBE49546E3EE961 /* TimeLineItemCollectionViewCell.swift */; };
+		F578D691ABABFA82050285456DB03424 /* TimeLineItemCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 39362F58643B6E602BCEE9D08F41A752 /* TimeLineItemCollectionViewCell.xib */; };
+		F62EE18DF56AF9AC5235BC3475636520 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054922BCA9E3640D5A97ED7AF3435F6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,54 +50,66 @@
 
 /* Begin PBXFileReference section */
 		087019A274EEE8CB195280C153C60C14 /* Pods-TimeLineView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeLineView_Tests-dummy.m"; sourceTree = "<group>"; };
+		10844F002EFF9BCB1E705195C436157A /* TimeLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.release.xcconfig; sourceTree = "<group>"; };
 		111A30888A211CA17356F76D3D6173FE /* Pods-TimeLineView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		24890136B2222E32E40E76FFBB39F552 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		147B383B82B918F916901197CB100F11 /* TimeLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.debug.xcconfig; sourceTree = "<group>"; };
+		1FA01592D5E073E8F15009A6C088337E /* TimeLineViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		24E62D53FDCED970ACB669985D74D386 /* HistoryPostCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HistoryPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FDE89E7B3F85595C82A5C1DBC535120 /* TimeLineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3976F26498A4495773E8221F0934972C /* Pods_TimeLineView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeLineView_Tests.framework; path = "Pods-TimeLineView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A03B32164CD09E93C0C54849C356481 /* TimeLineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimeLineView.modulemap; sourceTree = "<group>"; };
+		34263E1898B5DC641DA4EC450D836C60 /* HistoryTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HistoryTableView.xib; sourceTree = "<group>"; };
+		39362F58643B6E602BCEE9D08F41A752 /* TimeLineItemCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TimeLineItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		3976F26498A4495773E8221F0934972C /* Pods_TimeLineView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLineView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3454DAAD7416490F3FFC953B504A50 /* Pods-TimeLineView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeLineView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-umbrella.h"; sourceTree = "<group>"; };
-		57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TimeLineView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4054922BCA9E3640D5A97ED7AF3435F6 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50B7511332EB30BE72C428A271DF7FBE /* HistroyModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HistroyModel.swift; sourceTree = "<group>"; };
+		54C1702A3FD4671BF9E722331176BF7E /* TimeLineView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimeLineView-Info.plist"; sourceTree = "<group>"; };
 		5AAD36C7CAE1AE986678294D5C8AAE51 /* Pods-TimeLineView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeLineView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		63874F7F6731ACF54E548DD1EDE9541E /* Pods-TimeLineView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeLineView_Example-dummy.m"; sourceTree = "<group>"; };
-		652EC8FCB377F00BD3FB3B26D75F01CB /* TimeLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeLineView.framework; path = TimeLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652EC8FCB377F00BD3FB3B26D75F01CB /* TimeLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6609CA9AF57E821397EF90BF572DE0BD /* Pods-TimeLineView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		694F5415F54307953DB89DD2B4200260 /* TimeLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-prefix.pch"; sourceTree = "<group>"; };
 		6F67C3A02354A70CC70E85B092300DDD /* Pods-TimeLineView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		714F61AD951DE9860E44CCB7F90EB641 /* TimeLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeLineView-prefix.pch"; sourceTree = "<group>"; };
 		769B39E4B54F26777579F69CEC8CF0FC /* Pods-TimeLineView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeLineView_Example-umbrella.h"; sourceTree = "<group>"; };
-		7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeLineView-dummy.m"; sourceTree = "<group>"; };
 		78CE46AEC6CAC3BE37B35EFFD72AA031 /* Pods-TimeLineView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeLineView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		801F2A7AFAEF85AAA0E3AF2CBF4B1DEB /* Pods-TimeLineView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Example-Info.plist"; sourceTree = "<group>"; };
-		8143197525890624E408609C28D8376C /* TimeLineView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimeLineView-Info.plist"; sourceTree = "<group>"; };
 		8249BA25FD6AAA9EB37F668B68A96822 /* Pods-TimeLineView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeLineView_Tests.modulemap"; sourceTree = "<group>"; };
-		930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6EB133CF9E28C23AC6E40F26EA31707 /* TimeLineView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TimeLineView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		831B04642340DB790A6A222E272C5964 /* TimeLineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimeLineView.modulemap; sourceTree = "<group>"; };
+		9616798709D077483FFF0862FF1FEBAB /* HistoryTableHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HistoryTableHeaderView.xib; sourceTree = "<group>"; };
+		983007B8E54AB51E4266DBA200AFF3A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1470843247C669B00B3A9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TimeLineView/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		B0CE76EEB6F45DF54F8559736F282766 /* TimeLineView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TimeLineView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3D3DC39E54F365B2730FDFBA1457362 /* Pods-TimeLineView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Tests-Info.plist"; sourceTree = "<group>"; };
-		B92DE471BE26DAE743D4629253DC92DC /* Pods_TimeLineView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeLineView_Example.framework; path = "Pods-TimeLineView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50FF65672D4B0F0EE0596F5EF291DDE /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B92DE471BE26DAE743D4629253DC92DC /* Pods_TimeLineView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeLineView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD48AAD7BF15B5E4AD9DC12630114DAF /* Pods-TimeLineView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C01DEF720CDC48BEA77707D752F55DB2 /* Pods-TimeLineView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeLineView_Example.modulemap"; sourceTree = "<group>"; };
 		C5E7531B232645E897443AD792DFCD13 /* Pods-TimeLineView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeLineView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4FB93647EFD8698721CA90556534263 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D231E221E9B4CCB00EBE49546E3EE961 /* TimeLineItemCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeLineItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D40E24CB28630B4AA76455B9DCE99025 /* HistoryPostCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HistoryPostCollectionViewCell.xib; sourceTree = "<group>"; };
 		DD60AF222DC25F9E586064B84EF9DBE2 /* Pods-TimeLineView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeLineView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E19BB8BED1374800742E4ACD431643B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EE981552E0027723842B6F3CD64297AE /* Pods-TimeLineView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeLineView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeLineView.release.xcconfig; sourceTree = "<group>"; };
+		F2C12407A389B8AF33517C7A348F99CD /* TimeLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeLineView-dummy.m"; sourceTree = "<group>"; };
+		F3457E7E5FFF0F7C49CDED43F0B23BC5 /* HistoryTableHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HistoryTableHeaderView.swift; sourceTree = "<group>"; };
+		FC7B2113BDF293C715FBEF4C22BD17CE /* TimeLineCollectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeLineCollectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		16F07E73804752A7E0349EBE408EF2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534DA0BA66A2BE4832214387ADA5AD29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45247C09860B241A74B25531F13C5696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7DFFA06A931581F831044D3BF90BD5F7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C4D742077C415FFEE3A4D6279F0D41B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				968A13E1A2E53C2D8DD1D0089D8C42C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,17 +140,6 @@
 			path = "Target Support Files/Pods-TimeLineView_Tests";
 			sourceTree = "<group>";
 		};
-		17A2E61A4FA1B082F57DF61F5773A660 /* TimeLineView */ = {
-			isa = PBXGroup;
-			children = (
-				57D258FC598EB9AF3F10FA2F0889CFF2 /* ReplaceMe.swift */,
-				B94BA8E5979F94F24DDA285FA08EE110 /* Pod */,
-				D239C216026E818426A99370BC691C6C /* Support Files */,
-			);
-			name = TimeLineView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1EFDF0B27D29C6697C779C4275512153 /* Pods-TimeLineView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,12 +157,71 @@
 			path = "Target Support Files/Pods-TimeLineView_Example";
 			sourceTree = "<group>";
 		};
-		28A37710A98338764DB6BDCDA6866387 /* Development Pods */ = {
+		37D72E88450C24B82DAF71B3523EB3A5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				17A2E61A4FA1B082F57DF61F5773A660 /* TimeLineView */,
+				9BFE3CEAC7146AC2D3490533AE9C35E8 /* HistoryPostCollectionViewCell */,
+				3E1C996B6449059B369697F13DB005D4 /* HistoryTableHeaderView */,
+				728A161CCAE1024F5108024B121634DC /* HistoryTableViewCollectionCell */,
 			);
-			name = "Development Pods";
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3E1C996B6449059B369697F13DB005D4 /* HistoryTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F3457E7E5FFF0F7C49CDED43F0B23BC5 /* HistoryTableHeaderView.swift */,
+				9616798709D077483FFF0862FF1FEBAB /* HistoryTableHeaderView.xib */,
+			);
+			path = HistoryTableHeaderView;
+			sourceTree = "<group>";
+		};
+		3F95354B08A345BF4F7B346616E1C83A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37D72E88450C24B82DAF71B3523EB3A5 /* Cells */,
+				6E241F2FD85CCF1334E22201DB1A6A9D /* Views */,
+			);
+			name = View;
+			path = TimeLineView/Classes/View;
+			sourceTree = "<group>";
+		};
+		6E241F2FD85CCF1334E22201DB1A6A9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FD8C3B6C118E6E02D26DADA85065093 /* HistoryTableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		728A161CCAE1024F5108024B121634DC /* HistoryTableViewCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				D231E221E9B4CCB00EBE49546E3EE961 /* TimeLineItemCollectionViewCell.swift */,
+				39362F58643B6E602BCEE9D08F41A752 /* TimeLineItemCollectionViewCell.xib */,
+			);
+			path = HistoryTableViewCollectionCell;
+			sourceTree = "<group>";
+		};
+		8B229770CF1DF1628EBAF7A1F7843375 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B2113BDF293C715FBEF4C22BD17CE /* TimeLineCollectionController.swift */,
+				1FA01592D5E073E8F15009A6C088337E /* TimeLineViewController.swift */,
+			);
+			name = Controllers;
+			path = TimeLineView/Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		8FF610AA76DF54D3E215B4D1E4A78914 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4054922BCA9E3640D5A97ED7AF3435F6 /* Constants.swift */,
+				B50FF65672D4B0F0EE0596F5EF291DDE /* Extensions.swift */,
+				CF0E57AE0AE2986405741A10BFA016A8 /* Models */,
+			);
+			name = Model;
+			path = TimeLineView/Classes/Model;
 			sourceTree = "<group>";
 		};
 		900E470DB3A136DF2E3C18ABACD04DAD /* Targets Support Files */ = {
@@ -161,14 +233,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B94BA8E5979F94F24DDA285FA08EE110 /* Pod */ = {
+		9BFE3CEAC7146AC2D3490533AE9C35E8 /* HistoryPostCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				24890136B2222E32E40E76FFBB39F552 /* LICENSE */,
-				D4FB93647EFD8698721CA90556534263 /* README.md */,
-				A6EB133CF9E28C23AC6E40F26EA31707 /* TimeLineView.podspec */,
+				24E62D53FDCED970ACB669985D74D386 /* HistoryPostCollectionViewCell.swift */,
+				D40E24CB28630B4AA76455B9DCE99025 /* HistoryPostCollectionViewCell.xib */,
 			);
-			name = Pod;
+			path = HistoryPostCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		9FD8C3B6C118E6E02D26DADA85065093 /* HistoryTableView */ = {
+			isa = PBXGroup;
+			children = (
+				34263E1898B5DC641DA4EC450D836C60 /* HistoryTableView.xib */,
+			);
+			path = HistoryTableView;
+			sourceTree = "<group>";
+		};
+		A262FC516838F759FB5FA6BFCC59D225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				831B04642340DB790A6A222E272C5964 /* TimeLineView.modulemap */,
+				F2C12407A389B8AF33517C7A348F99CD /* TimeLineView-dummy.m */,
+				54C1702A3FD4671BF9E722331176BF7E /* TimeLineView-Info.plist */,
+				694F5415F54307953DB89DD2B4200260 /* TimeLineView-prefix.pch */,
+				2FDE89E7B3F85595C82A5C1DBC535120 /* TimeLineView-umbrella.h */,
+				147B383B82B918F916901197CB100F11 /* TimeLineView.debug.xcconfig */,
+				10844F002EFF9BCB1E705195C436157A /* TimeLineView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimeLineView";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -189,11 +283,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CF0E57AE0AE2986405741A10BFA016A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50B7511332EB30BE72C428A271DF7FBE /* HistroyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				28A37710A98338764DB6BDCDA6866387 /* Development Pods */,
+				EE13103B62271F00C970CBFE85427485 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C1FDBA1D7CA29A4E3F5BC8978F7C46B6 /* Products */,
 				900E470DB3A136DF2E3C18ABACD04DAD /* Targets Support Files */,
@@ -208,19 +310,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D239C216026E818426A99370BC691C6C /* Support Files */ = {
+		E8893AED8C1E14CF04E4BCBF2F5372B4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3A03B32164CD09E93C0C54849C356481 /* TimeLineView.modulemap */,
-				7757CF11CC3A2F012CE9B479EC553BC4 /* TimeLineView-dummy.m */,
-				8143197525890624E408609C28D8376C /* TimeLineView-Info.plist */,
-				714F61AD951DE9860E44CCB7F90EB641 /* TimeLineView-prefix.pch */,
-				4A2E033767869033C0AE7B2107F03A4A /* TimeLineView-umbrella.h */,
-				930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */,
-				F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */,
+				E19BB8BED1374800742E4ACD431643B5 /* LICENSE */,
+				983007B8E54AB51E4266DBA200AFF3A9 /* README.md */,
+				B0CE76EEB6F45DF54F8559736F282766 /* TimeLineView.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TimeLineView";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE13103B62271F00C970CBFE85427485 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4EC1C0BB74C2B70A160F3FFF6D359 /* TimeLineView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FAB4EC1C0BB74C2B70A160F3FFF6D359 /* TimeLineView */ = {
+			isa = PBXGroup;
+			children = (
+				A1470843247C669B00B3A9F6 /* Assets.xcassets */,
+				8B229770CF1DF1628EBAF7A1F7843375 /* Controllers */,
+				8FF610AA76DF54D3E215B4D1E4A78914 /* Model */,
+				E8893AED8C1E14CF04E4BCBF2F5372B4 /* Pod */,
+				A262FC516838F759FB5FA6BFCC59D225 /* Support Files */,
+				3F95354B08A345BF4F7B346616E1C83A /* View */,
+			);
+			name = TimeLineView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +361,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C916A776E1045E74BB476DF0CACADC4E /* Headers */ = {
+		EA0369683B346FF3BAA858D9AEA74776 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244403B683A729DF4C445EC0519D9328 /* TimeLineView-umbrella.h in Headers */,
+				38D0D89B1E73743B3A956E9B2AB6E97B /* TimeLineView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +412,12 @@
 		};
 		DA33A63FFD2DF802177864CA153A5A1C /* TimeLineView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3DD02B030D45C3E9CEA7456B48CE26F /* Build configuration list for PBXNativeTarget "TimeLineView" */;
+			buildConfigurationList = 89929945362700542116546CE3A26694 /* Build configuration list for PBXNativeTarget "TimeLineView" */;
 			buildPhases = (
-				C916A776E1045E74BB476DF0CACADC4E /* Headers */,
-				9A5D87DB168F1C84403EC6FEC0FEFBDB /* Sources */,
-				9C4D742077C415FFEE3A4D6279F0D41B /* Frameworks */,
-				F186F5C78D35B8309340B0E51330A644 /* Resources */,
+				EA0369683B346FF3BAA858D9AEA74776 /* Headers */,
+				96F6143D41EC5F3A63FD5B32E48ACFC2 /* Sources */,
+				16F07E73804752A7E0349EBE408EF2F5 /* Frameworks */,
+				7D2FB19059B1EE798B9B654C666338F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +436,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9A7E0F2956F8F943980CB2DFE457D6FE = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -346,17 +470,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89DA1D66C23DF1C6CBA60EBC106239FD /* Resources */ = {
+		7D2FB19059B1EE798B9B654C666338F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F186F5C78D35B8309340B0E51330A644 /* Resources */ = {
+		89DA1D66C23DF1C6CBA60EBC106239FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1470844247C669B00B3A9F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +496,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A5D87DB168F1C84403EC6FEC0FEFBDB /* Sources */ = {
+		96F6143D41EC5F3A63FD5B32E48ACFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D877F38124B46DB5007130A7241097DD /* ReplaceMe.swift in Sources */,
-				B1BD83F06ED71577B109F1DD73EE57F3 /* TimeLineView-dummy.m in Sources */,
+				F62EE18DF56AF9AC5235BC3475636520 /* Constants.swift in Sources */,
+				B33F3F80966FC95951BF958295AEF95B /* Extensions.swift in Sources */,
+				0870DDC92B4EE7201296452CD6910609 /* HistoryPostCollectionViewCell.swift in Sources */,
+				C94C5EDCB91BFCCE4456C7BE65FE40A3 /* HistoryPostCollectionViewCell.xib in Sources */,
+				8A49BE84950DC9367E9AB2DD1214112D /* HistoryTableHeaderView.swift in Sources */,
+				EBEFFFE569C1FCA7643AB9C41929DAEC /* HistoryTableHeaderView.xib in Sources */,
+				D765CE1008854E13304D487F96BF0C40 /* HistoryTableView.xib in Sources */,
+				8C315A9ABB6B185845C8B27CEBB9D1F5 /* HistroyModel.swift in Sources */,
+				D2727CE0AF0EA49527316FCCBB98FFA8 /* TimeLineCollectionController.swift in Sources */,
+				ECD74CFE883F02FB9BC3931F8D00C4B0 /* TimeLineItemCollectionViewCell.swift in Sources */,
+				F578D691ABABFA82050285456DB03424 /* TimeLineItemCollectionViewCell.xib in Sources */,
+				199EEA6E3992F303166B94E546208A6D /* TimeLineView-dummy.m in Sources */,
+				6EB1CED40E47FF4F2B259F67D94D3B74 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +542,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2562BD3937158156B4984C8C09C17958 /* Debug */ = {
+		080B7D2EC7BE290B99388FD49C4BF064 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 930E9933FC04139A0B4B7DD3F5EA61DC /* TimeLineView.debug.xcconfig */;
+			baseConfigurationReference = 147B383B82B918F916901197CB100F11 /* TimeLineView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -422,7 +558,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TimeLineView/TimeLineView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TimeLineView/TimeLineView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TimeLineView/TimeLineView.modulemap";
 				PRODUCT_MODULE_NAME = TimeLineView;
@@ -430,50 +566,19 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		33EFBC09A9F86131D1C702E689B88DAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B93687F8A8DC76F8D52B93BB5A5DDE /* TimeLineView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TimeLineView/TimeLineView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TimeLineView/TimeLineView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TimeLineView/TimeLineView.modulemap";
-				PRODUCT_MODULE_NAME = TimeLineView;
-				PRODUCT_NAME = TimeLineView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4CE1E9C4CA1B8DB13292902BC566F406 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F67C3A02354A70CC70E85B092300DDD /* Pods-TimeLineView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,7 +590,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example.modulemap";
@@ -496,6 +601,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -518,7 +625,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests.modulemap";
@@ -541,6 +648,7 @@
 			baseConfigurationReference = EE981552E0027723842B6F3CD64297AE /* Pods-TimeLineView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -552,7 +660,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Example/Pods-TimeLineView_Example.modulemap";
@@ -563,6 +671,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -623,8 +732,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -646,7 +754,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimeLineView_Tests/Pods-TimeLineView_Tests.modulemap";
@@ -727,6 +835,38 @@
 			};
 			name = Debug;
 		};
+		CCC79D5CCE55770FE312456D9F4E1EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10844F002EFF9BCB1E705195C436157A /* TimeLineView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeLineView/TimeLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeLineView/TimeLineView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeLineView/TimeLineView.modulemap";
+				PRODUCT_MODULE_NAME = TimeLineView;
+				PRODUCT_NAME = TimeLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -748,20 +888,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		89929945362700542116546CE3A26694 /* Build configuration list for PBXNativeTarget "TimeLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080B7D2EC7BE290B99388FD49C4BF064 /* Debug */,
+				CCC79D5CCE55770FE312456D9F4E1EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CC20435575973B9D4FB047FAAC8D3BF3 /* Build configuration list for PBXNativeTarget "Pods-TimeLineView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B50A496F7D855F9E57F02A4A35242967 /* Debug */,
 				58D235D0A511C20D36D3534DD95D46D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3DD02B030D45C3E9CEA7456B48CE26F /* Build configuration list for PBXNativeTarget "TimeLineView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2562BD3937158156B4984C8C09C17958 /* Debug */,
-				33EFBC09A9F86131D1C702E689B88DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
